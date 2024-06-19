@@ -1,5 +1,5 @@
 {
-    "name": "statamic/seo-pro",
+    "name": "spazacomm/statamic-seo-pro",
     "autoload": {
         "psr-4": {
             "Statamic\\SeoPro\\": "src"
@@ -22,7 +22,7 @@
         }
     },
     "require": {
-        "statamic/cms": "^5.0.0"
+        "statamic/cms": "^4.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "^8.0 || ^9.0",
