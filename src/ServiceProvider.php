@@ -108,7 +108,7 @@ class ServiceProvider extends AddonServiceProvider
     {
         Nav::extend(function ($nav) {
             if ($this->userHasSeoPermissions()) {
-                $nav->tools('SEO Pro')
+                $nav->tools('SEO')
                     ->route('seo-pro.index')
                     ->icon('seo-search-graph')
                     ->children(function () use ($nav) {
